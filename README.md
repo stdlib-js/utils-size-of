@@ -216,6 +216,13 @@ $ sizeof int16
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/real-max`][@stdlib/utils/real-max]: return the maximum finite value capable of being represented by a numeric real type.
+-   [`@stdlib/utils/type-max`][@stdlib/utils/type-max]: return the maximum value of a specified numeric type.
+
 </section>
 
 <!-- /.related -->
@@ -276,6 +283,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-size-of/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/real-max]: https://github.com/stdlib-js/utils-real-max
+
+[@stdlib/utils/type-max]: https://github.com/stdlib-js/utils-type-max
+
+<!-- </related-links> -->
 
 </section>
 
