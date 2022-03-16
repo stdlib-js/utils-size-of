@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-size-of",
-  "version": "0.0.8",
+  "version": "0.0.0",
   "description": "Return the size (in bytes) of the canonical binary representation of a specified numeric type.",
   "license": "Apache-2.0",
   "author": {
