@@ -52,7 +52,8 @@
     "@stdlib/constants-uint16-num-bytes": "^0.0.x",
     "@stdlib/constants-uint32-num-bytes": "^0.0.x",
     "@stdlib/constants-uint8-num-bytes": "^0.0.x",
-    "@stdlib/fs-read-file": "^0.0.x"
+    "@stdlib/fs-read-file": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.0.x",
