@@ -1,0 +1,43 @@
+{
+  "name": "@stdlib/utils-size-of",
+  "version": "0.0.0",
+  "description": "Return the size (in bytes) of the canonical binary representation of a specified numeric type.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-size-of.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "mathematics",
+    "math",
+    "type",
+    "size",
+    "size-of",
+    "sizeof",
+    "nbytes",
+    "bytes",
+    "numbytes",
+    "float",
+    "integer",
+    "int",
+    "complex",
+    "binary",
+    "bits"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
