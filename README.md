@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-size-of
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sizeOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sizeOf;
-})();
-</script>
+var sizeOf = require( '@stdlib/utils-size-of' );
 ```
 
 #### sizeOf( dtype )
@@ -106,13 +104,8 @@ The following numeric types are supported:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var sizeOf = require( '@stdlib/utils-size-of' );
 
 var s = sizeOf( 'float64' );
 // returns 8
@@ -149,11 +142,6 @@ s = sizeOf( 'complex128' );
 
 s = sizeOf( 'complex64' );
 // returns 8
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -162,7 +150,69 @@ s = sizeOf( 'complex64' );
 
 <!-- Section for describing a command-line interface. -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use the module as a general utility, install the module globally
+
+```bash
+npm install -g @stdlib/utils-size-of
+```
+
+</section>
+<!-- CLI usage documentation. -->
+
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: sizeof [options] <dtype>
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- CLI usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- CLI usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ sizeof int16
+2
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -252,14 +302,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/utils-size-of/tree/deno
 [umd-url]: https://github.com/stdlib-js/utils-size-of/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-size-of/tree/esm
+[branches-url]: https://github.com/stdlib-js/utils-size-of/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-size-of/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/real-max]: https://github.com/stdlib-js/utils-real-max/tree/umd
+[@stdlib/utils/real-max]: https://github.com/stdlib-js/utils-real-max
 
-[@stdlib/utils/type-max]: https://github.com/stdlib-js/utils-type-max/tree/umd
+[@stdlib/utils/type-max]: https://github.com/stdlib-js/utils-type-max
 
 <!-- </related-links> -->
 
