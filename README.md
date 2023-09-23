@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@deno/mod.js';
+import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@v0.1.0-deno/mod.js';
 ```
 
 #### sizeOf( dtype )
@@ -100,7 +100,7 @@ The following numeric types are supported:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@deno/mod.js';
+import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@v0.1.0-deno/mod.js';
 
 var s = sizeOf( 'float64' );
 // returns 8
