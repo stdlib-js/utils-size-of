@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@esm/index.mjs';
+import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@v0.1.0-esm/index.mjs';
 ```
 
 #### sizeOf( dtype )
@@ -105,7 +105,7 @@ The following numeric types are supported:
 <body>
 <script type="module">
 
-import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@esm/index.mjs';
+import sizeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-size-of@v0.1.0-esm/index.mjs';
 
 var s = sizeOf( 'float64' );
 // returns 8
