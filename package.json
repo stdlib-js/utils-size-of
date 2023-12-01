@@ -53,7 +53,7 @@
     "@stdlib/constants-uint32-num-bytes": "^0.1.1",
     "@stdlib/constants-uint8-num-bytes": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1"
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.1.1",
