@@ -45,130 +45,25 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/utils-size-of
-```
 
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
-
-<section class="usage">
-
-## Usage
-
-```javascript
-var sizeOf = require( '@stdlib/utils-size-of' );
-```
-
-#### sizeOf( dtype )
-
-Returns the size (in bytes) of the canonical binary representation of a specified numeric type.
-
-```javascript
-var s = sizeOf( 'int8' );
-// returns 1
-```
-
-The following numeric types are supported:
-
--   `float64`: double-precision floating-point numbers
--   `float32`: single-precision floating-point numbers
--   `float16`: half-precision floating-point numbers
--   `int32`: 32-bit two's complement signed integers
--   `uint32`: 32-bit unsigned integers
--   `int16`: 16-bit two's complement signed integers
--   `uint16`: 16-bit unsigned integers
--   `int8`: 8-bit two's complement signed integers
--   `uint8`: 8-bit unsigned integers
--   `uint8c`: 8-bit unsigned integers clamped to `0-255`
--   `complex128`: 128-bit complex numbers
--   `complex64`: 64-bit complex numbers
-
-</section>
-
-<!-- /.usage -->
 
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
-<section class="notes">
 
-</section>
-
-<!-- /.notes -->
 
 <!-- Package usage examples. -->
 
-<section class="examples">
 
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var sizeOf = require( '@stdlib/utils-size-of' );
-
-var s = sizeOf( 'float64' );
-// returns 8
-
-s = sizeOf( 'float32' );
-// returns 4
-
-s = sizeOf( 'float16' );
-// returns 2
-
-s = sizeOf( 'int32' );
-// returns 4
-
-s = sizeOf( 'uint32' );
-// returns 4
-
-s = sizeOf( 'int16' );
-// returns 2
-
-s = sizeOf( 'uint16' );
-// returns 2
-
-s = sizeOf( 'int8' );
-// returns 1
-
-s = sizeOf( 'uint8' );
-// returns 1
-
-s = sizeOf( 'uint8c' );
-// returns 1
-
-s = sizeOf( 'complex128' );
-// returns 16
-
-s = sizeOf( 'complex64' );
-// returns 8
-```
-
-</section>
-
-<!-- /.examples -->
 
 <!-- Section for describing a command-line interface. -->
 
-* * *
+
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -186,7 +81,7 @@ npm install -g @stdlib/utils-size-of-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: sizeof [options] <dtype>
@@ -213,7 +108,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ sizeof int16
@@ -240,10 +135,9 @@ $ sizeof int16
 
 <section class="related">
 
-* * *
-
 ## See Also
 
+-   <span class="package-name">[`@stdlib/utils-size-of`][@stdlib/utils-size-of]</span><span class="delimiter">: </span><span class="description">return the size (in bytes) of the canonical binary representation of a specified numeric type.</span>
 -   <span class="package-name">[`@stdlib/utils-real-max`][@stdlib/utils/real-max]</span><span class="delimiter">: </span><span class="description">return the maximum finite value capable of being represented by a numeric real type.</span>
 -   <span class="package-name">[`@stdlib/utils-type-max`][@stdlib/utils/type-max]</span><span class="delimiter">: </span><span class="description">return the maximum value of a specified numeric type.</span>
 
@@ -264,7 +158,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -287,8 +181,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/utils-size-of.svg
-[npm-url]: https://npmjs.org/package/@stdlib/utils-size-of
+[npm-image]: http://img.shields.io/npm/v/@stdlib/utils-size-of-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/utils-size-of-cli
 
 [test-image]: https://github.com/stdlib-js/utils-size-of/actions/workflows/test.yml/badge.svg?branch=v0.2.1
 [test-url]: https://github.com/stdlib-js/utils-size-of/actions/workflows/test.yml?query=branch:v0.2.1
